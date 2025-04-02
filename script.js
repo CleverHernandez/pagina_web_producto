@@ -12,7 +12,7 @@ const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
 scene.add(ambientLight);
 
 const video = document.createElement('video');
-video.src = './video/producto.mp4'; 
+video.src = './video/Producto.mp4'; 
 video.loop = true;
 video.muted = true;  
 video.load();
